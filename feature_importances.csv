@@ -1,0 +1,32 @@
+feature,importance
+credit_score,0.8040005939780891
+A_Submitted,0.04260134887090127
+time_diff,0.041168440559507254
+LoanGoal_Home improvement,0.024063022377301735
+LoanGoal_Car,0.02051628085056863
+LoanGoal_Existing loan takeover,0.010442081123470814
+LoanGoal_Unknown,0.007511334241102233
+O_Created,0.007193128058007453
+O_Create Offer,0.0066991880843190535
+W_Handle leads,0.006240281595361662
+"LoanGoal_Other, see explanation",0.005590794515323824
+LoanGoal_Not speficied,0.005091939877686966
+O_Sent (mail and online),0.004235238270610726
+W_Complete application,0.0035870392157039753
+LoanGoal_Remaining debt home,0.0025376902629304023
+O_Cancelled,0.0023999168661433296
+A_Cancelled,0.0020121337854900412
+LoanGoal_Extra spending limit,0.0012527576639173453
+O_Sent (online only),0.0008703099466303862
+LoanGoal_Caravan / Camper,0.0005914062939734296
+LoanGoal_Motorcycle,0.0005321016770586446
+LoanGoal_Boat,0.0002936721365245613
+A_Denied,0.0002628642636710361
+LoanGoal_Tax payments,0.00019818019975653694
+O_Refused,6.16712829753801e-05
+LoanGoal_Business goal,4.658400297445044e-05
+A_Create Application,0.0
+A_Concept,0.0
+LoanGoal_Debt restructuring,0.0
+W_Assess potential fraud,0.0
+A_Accepted,0.0
