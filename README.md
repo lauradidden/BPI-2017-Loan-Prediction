@@ -4,19 +4,19 @@ This project analyzes the BPI Challenge 2017 dataset using a combination of mach
 
 ---
 
-## Dataset
+## Dataset: BPI Challenge 2017
 
-The [BPI Challenge 2017 dataset](https://data.4tu.nl/articles/dataset/BPI_Challenge_2017/12696884) contains event logs from a Dutch financial institution’s loan application system. Each record logs an event in a case, with attributes such as:
+The BPI Challenge 2017 dataset contains event logs from a Dutch financial institution, capturing the full lifecycle of thousands of personal loan applications. Each row represents a single event in a case, such as application submission, offer creation, or cancellation.
 
-- `case`: Unique application ID
-- `event`: Activity name (e.g., A_Create Application, A_Submitted)
-- `LoanGoal`, `CreditScore`, `ApplicationType`, and timestamps
+Key attributes include:
+- `case`: unique application ID  
+- `event`: type of activity (e.g., A_Submitted, O_Created)   
+- `time`: timestamp for process mining and duration analysis
+- `Case Attributes` such as: `LoanGoal`, `CreditScore`, `RequestedAmount`, and `MonthlyCost` 
 
 ---
 
-## Key Analyses
-
-### 1. Feature Importance (Random Forest)
+## Feature Importance Analysis (Random Forest)
 
 A random forest classifier was trained to predict application success (presence of the `A_Pending` event). The model identified the following as the most important features:
 - Case duration
@@ -26,7 +26,7 @@ A random forest classifier was trained to predict application success (presence 
 
 ---
 
-### 2. Power BI Insights
+## Power BI Visualization
 
 The Power BI dashboard compares success vs. failure across:
 - Loan goal
@@ -37,7 +37,7 @@ The Power BI dashboard compares success vs. failure across:
 
 ---
 
-### 3. Process Mining View
+## Process Model View
 
 A process model shows the most frequent paths through the loan application lifecycle.
 
